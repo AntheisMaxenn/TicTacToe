@@ -1,0 +1,13 @@
+
+<button mat-raised-button class="noValue" *ngIf="!value">
+    <p> {{ value }} </p>
+</button>
+
+<button mat-raised-button color="primary" class="xValue" *ngIf="value === 'X'">
+    <p> {{ value }} </p>
+</button>
+
+<button mat-raised-button color="warn" class="oValue" *ngIf="value === 'O'">
+    <p> {{ value }} </p>
+</button>
+

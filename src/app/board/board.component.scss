@@ -1,0 +1,19 @@
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-gap: 1px;
+    justify-content: center;
+    margin: 1rem;
+}
+
+app-square {
+    border: 1px solid white;
+    height: 200px;
+    display: grid;
+    align-self: center;
+    text-align: center;
+    border: none;
+}
+.wrapper{
+    text-align:center;
+}
